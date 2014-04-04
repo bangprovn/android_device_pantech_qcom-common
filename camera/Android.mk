@@ -8,8 +8,8 @@ endif
 LOCAL_SRC_FILES := \
     CameraWrapper.cpp
 
-LOCAL_SHARED_LIBRARIES := \
-    libhardware liblog libcamera_client libutils libcutils
+    LOCAL_SHARED_LIBRARIES := \
+    libhardware liblog libcamera_client libutils
 
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/hw
 LOCAL_MODULE := camera.qcom
